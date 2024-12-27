@@ -1,0 +1,133 @@
+/* media query para pantallas chicas (mobile), max-width: 991px */
+
+@media(max-width:991px) {
+
+    .menu {
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 65%;
+        left: 0;
+        right: 0;
+        background-color: #496274;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content-index {
+        padding: 250px 50px;
+    }
+
+    .header-content-index span {
+        display: none;
+    }
+
+    .header-content-tienda {
+        padding: 100px 30px;
+    }
+
+    .header-content-new {
+        padding: 100px 30px;
+    }
+
+    .header-content-nosotros {
+        padding: 100px 30px;
+    }
+
+    .header-content-contacto {
+        padding: 100px 30px;
+    }
+
+    .span-nosotros {
+        display: none;
+    }
+
+    .container-nosotros-uno-dos {
+        padding: 200px 40px;
+    }
+
+    .nosotros-content-uno p {
+        padding: 0;
+    }
+
+    .nosotros-content-dos {
+        display: none;
+    }
+
+    .subtitulo-nuevos-ingresos {
+        display: none;
+    }
+
+}
+
+/* media query para pantallas grandes, min-width: 768px */
+
+@media (min-width: 768px) { /* utilizamos flexbox para organizar las secciones en una columna, pero para pantallas grandes (min-width: 768px), las organizamos en una fila horizontal. */
+   
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /* sección you/social media/info */
+
+    .reset-store-you {
+        margin-bottom: 0;
+    }
+
+    .reset-store-social-media {
+        margin-bottom: 0;
+    } 
+
+    .reset-store-info {
+        margin-bottom: 0;
+    }
+
+    /* sección you ul/social media ul/info ul */
+
+    .reset-store-you ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    .reset-store-info ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    .reset-store-social-media ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    /* sección you a/info a/social media a */
+
+    .reset-store-you a {
+        font-size: 1.2rem;
+    }
+
+    .reset-store-info a {
+        font-size: 1.2rem;
+    }
+
+    .reset-store-social-media a {
+        font-size: 1.2rem;
+    } 
+}
