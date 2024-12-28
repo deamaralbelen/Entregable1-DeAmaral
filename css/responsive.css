@@ -3,7 +3,7 @@
 @media(max-width:991px) {
 
     .menu-index {
-        padding: 10px;
+        padding: 30px;
     }
 
     .menu-index label {
@@ -27,16 +27,16 @@
         text-decoration: none;
     }
 
+    #menu-index:checked ~ .navbar {
+        display: initial;
+    }
+
     #cart-icon {
         display: none;
     }
 
     #cart-count {
         display: none;
-    }
-
-    #menu-index:checked ~ .navbar {
-        display: initial;
     }
 
     .menu-tienda {
