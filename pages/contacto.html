@@ -22,7 +22,7 @@
 
     <!-- link de mi css responsive -->
 
-    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="../css/responsive.css">
 
     <!-- link de mi script -->
 
@@ -40,15 +40,17 @@
 
         <!-- logo -->
 
-        <div class="menu container"> 
+        <div class="menu-contacto container"> 
             
             <a href="../index.html"> 
                 <img src="../img/img-logo-reset-store.png" width="185px" alt="Logo de nombre Reset Store, en color blanco que identifica el logotipo de la marca"> <!-- el alt de la img se completa con la descripción más acertada/completa de la img -->
             </a>
 
-            <input type="checkbox" id="menu">
-            <label for="menu">
-            <img src="../img/img-menu.png" class="menu-icono" alt="">
+            <!-- menú hamburguesa -->
+
+            <input type="checkbox" id="menu-contacto">
+            <label for="menu-contacto">
+                <img src="../img/img-menu.png" class="menu-icono-contacto" alt="">
             </label>
 
             <!-- menú de navegación --> 
@@ -118,21 +120,25 @@
     
             
                     <!-- formulario de contacto -->
-            
-                    <form action="/submit" method="post">
 
-                        <label class="nombre-formulario" for="nombre">Nombre:</label>
-                        <input class="text-area-nombre" type="text" name="" id="">
-            
-                        <label class="email-formulario" for="email">Email:</label>
-                        <input class="text-area-email" type="email" name="" id="">
-            
-                        <label class="mensaje-formulario" for="mensaje">Mensaje:</label>
-                        <textarea class="text-area-mensaje" name="mensaje" id="mensaje"></textarea>
-            
-                        <input class="enviar-formulario" type="submit" value="Enviar">
+                    <div class="info-form">
 
-                    </form>
+                        <form action="/submit" method="post">
+
+                            <label class="nombre-formulario" for="nombre">Nombre:</label>
+                            <input class="text-area-nombre" type="text" name="" id="">
+                
+                            <label class="email-formulario" for="email">Email:</label>
+                            <input class="text-area-email" type="email" name="" id="">
+                
+                            <label class="mensaje-formulario" for="mensaje">Mensaje:</label>
+                            <textarea class="text-area-mensaje" name="mensaje" id="mensaje"></textarea>
+                
+                            <input class="enviar-formulario" type="submit" value="Enviar">
+    
+                        </form>
+
+                    </div>
 
                 </div>
 
