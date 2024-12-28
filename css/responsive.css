@@ -3,7 +3,7 @@
 @media(max-width:991px) {
 
     .menu-index {
-        padding: 30px;
+        padding: 10px;
     }
 
     .menu-index label {
@@ -25,10 +25,6 @@
 
     .menu-index .navbar ul li a {
         text-decoration: none;
-    }
-
-    .search-box {
-        display: none;
     }
 
     #cart-icon {
