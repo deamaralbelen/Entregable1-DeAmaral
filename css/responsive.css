@@ -23,10 +23,6 @@
         width: 100%;
     }
 
-    .menu-index .navbar ul li a {
-        text-decoration: none;
-    }
-
     #menu-index:checked ~ .navbar {
         display: initial;
     }
