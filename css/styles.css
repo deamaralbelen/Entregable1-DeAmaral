@@ -21,6 +21,87 @@ body {
   min-height: 100vh;
 }
 
+/* simulador descuento en productos */
+
+.txt-simulador {
+  text-align: center;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.simulador-precio {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* estilo para productos - simulador descuento */
+
+.product-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-list li {
+  background: #f4f4f4;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-list li:hover {
+  background-color: #e9ecef;
+  cursor: pointer;
+}
+
+/* botones - simulador descuento */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* prompts y mensajes - simulador descuento */
+
+.alert {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* responsive - simulador descuento */
+
+@media (max-width: 768px) {
+  .container {
+      padding: 15px;
+  }
+
+  button {
+      width: 100%;
+  }
+}
+
 /* menú index */
 
 .menu-index {
