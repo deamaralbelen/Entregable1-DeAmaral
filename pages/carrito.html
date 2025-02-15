@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google font ("Bebas Neue") que voy a utilizar para la página -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- font awesome desde el CDN -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- link de mi css estilos --> 
+
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- link de mi css responsive -->
+
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <title> Carrito </title>
+
+    <meta name="description" content="¡Te encontrás en el carrito de compras de Reset Store!">
+
+    <meta name="keywords" content="carrito de compras, carrito calzado, calzados de marca carrito, zapatos de calidad premium, comprar">
+
+    <meta name="author" content="Reset Store">
+
+</head>
+
+<body>
+    <div class="container-simulador">
+        <h1> Simulador de descuentos </h1>
+
+        <label for="producto"> Seleccioná un producto: </label>
+        <select id="producto">
+            <option value="1300"> Adidas Campus Brown - $1300 </option>
+            <option value="1300"> Adidas Campus Black - $1300 </option>
+            <option value="1450"> Nike Dunk SB Grey - $1450 </option>
+            <option value="1650"> Adidas Samba Pink - $1650 </option>
+        </select>
+
+        <label for="descuento"> Descuento (%): </label>
+        <input type="number" id="descuento" min="0" max="100" placeholder="Ej: 20">
+
+        <button id="calcular"> Calcular precio </button>
+
+        <h2> Precio final: <span id="precioFinal"> $0 </span></h2>
+
+    </div>
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>

@@ -186,6 +186,34 @@ button:hover {
   display: none;
 }
 
+/* carrito de compras, simulador de precios */
+
+.container-simulador {
+  width: 50%;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, select, button {
+  margin: 10px;
+  padding: 10px;
+  width: 80%;
+}
+
+button {
+  background-color: #7b92a2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(104, 169, 230, 0.867);
+}
+
 /* menú new arrival/nuevos ingresos */
 
 .menu-new-arrival {
